@@ -5,7 +5,7 @@ CREATE TABLE road_segments (
     name TEXT,
     geom geometry(LineString, 4326) NOT NULL,
     drainage_capacity REAL NOT NULL,
-    elevation_m REAL NOT NOT NULL,
+    elevation_m REAL NOT NULL,
     base_risk REAL NOT NULL DEFAULT 0
 );
 
